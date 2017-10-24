@@ -1,0 +1,126 @@
+body {
+  padding: 0px;
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.wrap{
+	width: 100%;
+	height: auto;
+}
+.header{
+	width: 100%;
+	height: 24px;
+	
+}
+.header ul{
+	width: 530px;
+	height: 24px;
+	/*border: 1px solid red;*/
+	float: right;
+	position: relative;
+}
+.GD{
+	width: 100px;
+	height: 24px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #38f;
+	text-align: center;
+	line-height: 24px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.header ul li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+	line-height: 24px;
+	color: #000;
+
+}
+.header ul li a{
+	font-size: 14px;
+	color: #000;
+}
+
+.logo{
+	width: 270px;
+	height: 129px;
+	margin: 0 auto;
+}
+form{
+	width: 640px;
+	height: 36px;
+	margin: 0 auto;
+	border: 1px solid #b6b6b6;
+	margin-top: 70px;
+}
+input{
+	width: 538px;
+	height: 34px;
+	border: none;
+	float: left;
+	/*outline:1px solid #2d78f4;*/
+}
+button{
+	width: 102px;
+	height: 36px;
+	float: left;
+	background: #3385ff;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.ewm{
+	width: 62px;
+	height:62px;
+	background:url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png) 0 0 no-repeat;
+	margin: 0px auto;
+	margin-top: 160px;
+}
+.footer{
+	width: 536px;
+	height: 22px;
+	margin: 0 auto;
+}
+.footer ul li{
+	margin-left: 30px;
+	float: left;
+	list-style: none;
+}
+.footer ul li a{
+	float: left;
+	color: #999;
+}
+.footerA{
+	width: 520px;
+	height: 22px;
+	margin: 0 auto;
+	line-height: 22px;
+	
+}
+.footerA p:nth-child(1){
+	width: 320px;
+	height: 22px;
+	float: left;
+	font-size: 12px;
+	color: #999;
+	margin-top: 0;
+}
+.footerA p:nth-child(2){
+	width: 200px;
+	height: 22px;
+	float: left;
+	font-size: 12px;
+	color: #999;
+	margin-top: 0;
+}
+
